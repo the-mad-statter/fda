@@ -1,5 +1,3 @@
-deriv <- function(expr, ...) UseMethod('deriv')
-
 deriv.fd <- function(expr, Lfdobj=int2Lfd(1), ...)
 {
   #  Applies linear differential operator LFD to functional data object FD
