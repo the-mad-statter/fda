@@ -202,7 +202,7 @@ S3method(coefficients, fd)
 S3method(coefficients, fdPar)
 
 S3method(density,      fd)
-S3method(deriv,        fd)
+S3method(stats::deriv, fd)
 S3method(fRegress,     fd)
 
 S3method(fitted,       fdSmooth)
